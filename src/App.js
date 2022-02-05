@@ -1,6 +1,9 @@
 import logo from "./logo.svg";
 import "./App.css";
 import { useState } from "react";
+import Header from "./components/Header";
+import List from "./components/List/indx";
+import Form from "./components/Form";
 
 function App() {
   const [listTransactions, setListTransactions] = useState([
@@ -10,7 +13,9 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header"></header>
+      <Header />
+      <List />
+      <Form />
     </div>
   );
 }

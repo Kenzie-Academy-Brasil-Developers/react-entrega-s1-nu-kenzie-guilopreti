@@ -1,0 +1,11 @@
+.button-pink {
+  color: #ffffff;
+  background-color: #fd377e;
+  cursor: pointer;
+}
+
+.button-grey {
+  color: #868e96;
+  background-color: #e9ecef;
+  cursor: pointer;
+}
