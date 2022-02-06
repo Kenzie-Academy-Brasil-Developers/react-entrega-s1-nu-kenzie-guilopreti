@@ -114,4 +114,39 @@ form button {
   color: white;
   background-color: #fd377e;
   cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media (min-width: 769px) {
+  .form-valorTotal {
+    height: 526px;
+  }
+}
+
+@media (min-width: 1065px) {
+  form {
+    width: 363px;
+    margin-right: 60px;
+  }
+
+  .descricao input {
+    width: 282px;
+  }
+
+  .valor div {
+    width: 128px;
+  }
+
+  .valor input {
+    width: 85px;
+  }
+
+  .tipo-valor select {
+    width: 150px;
+  }
+
+  form button {
+    width: 314px;
+  }
 }

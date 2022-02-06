@@ -5,6 +5,10 @@
   padding-bottom: 80px;
 }
 
+.geral {
+  margin: 0;
+}
+
 header {
   display: flex;
   justify-content: space-around;
@@ -25,4 +29,21 @@ header button {
   margin-top: 22px;
   border: none;
   border-radius: 8px;
+}
+
+.form-valorTotal {
+  margin: 0px;
+}
+
+@media (min-width: 769px) {
+  .geral {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .form-valorTotal {
+    margin: 0 0 0 15px;
+  }
 }
