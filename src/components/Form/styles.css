@@ -118,6 +118,10 @@ form button {
   font-weight: 500;
 }
 
+form button:hover {
+  filter: brightness(0.9);
+}
+
 @media (min-width: 769px) {
   .form-valorTotal {
     height: 526px;

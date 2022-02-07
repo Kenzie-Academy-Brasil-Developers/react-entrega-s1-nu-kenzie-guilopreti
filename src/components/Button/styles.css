@@ -4,8 +4,21 @@
   cursor: pointer;
 }
 
+.button-pink:hover {
+  filter: brightness(0.9);
+}
+
 .button-grey {
   color: #868e96;
   background-color: #e9ecef;
   cursor: pointer;
+}
+
+.button-grey:hover {
+  background-color: #868e96;
+  color: #e9ecef;
+}
+
+.button-grey:active {
+  background-color: #fd377e;
 }

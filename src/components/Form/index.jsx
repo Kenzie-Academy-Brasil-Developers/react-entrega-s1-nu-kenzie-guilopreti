@@ -2,9 +2,9 @@ import { useState } from "react";
 import "./styles.css";
 
 const Form = ({ newListTransactions }) => {
-  const [description, setDescription] = useState("");
+  const [description, setDescription] = useState(" ");
 
-  const [value, setValue] = useState("");
+  const [value, setValue] = useState(0);
 
   const [type, setType] = useState("Entrada");
 
@@ -43,7 +43,7 @@ const Form = ({ newListTransactions }) => {
         <h4>Valor</h4>
         <div>
           <input
-            placeholder="Valor"
+            placeholder="1"
             onChange={(evt) => setValue(Number(evt.target.value))}
           />
           <p>R$</p>

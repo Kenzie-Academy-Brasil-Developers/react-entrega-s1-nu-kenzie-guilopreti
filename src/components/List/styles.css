@@ -38,6 +38,10 @@ li {
   width: 100%;
 }
 
+li:hover {
+  box-shadow: 0px 4px 32px -12px rgb(0 0 0);
+}
+
 .botoes-lista {
   display: flex;
   justify-content: space-between;

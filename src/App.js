@@ -6,10 +6,7 @@ import Form from "./components/Form";
 import TotalMoney from "./components/TotalMoney";
 
 function App() {
-  const [listTransactions, setListTransactions] = useState([
-    { description: "Salário recebido", type: "Entrada", value: 2500 },
-    { description: "Conta de luz", type: "Saída", value: -150 },
-  ]);
+  const [listTransactions, setListTransactions] = useState([]);
 
   const newListTransactions = (value) => {
     setListTransactions([...listTransactions, value]);
