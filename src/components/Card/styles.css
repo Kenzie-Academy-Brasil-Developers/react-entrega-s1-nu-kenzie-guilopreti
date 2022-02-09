@@ -41,6 +41,11 @@
   font-weight: 400;
   color: #212529;
   font-size: 12px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 85px;
 }
 
 .infos button {
@@ -90,5 +95,9 @@
 @media (min-width: 975px) {
   .infos h2 {
     width: 337px;
+  }
+
+  .infos p {
+    width: 120px;
   }
 }
