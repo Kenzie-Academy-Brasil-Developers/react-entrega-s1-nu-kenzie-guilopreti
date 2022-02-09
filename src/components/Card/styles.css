@@ -31,6 +31,10 @@
   width: 130px;
   text-align: initial;
   margin-left: 14px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .infos p {
